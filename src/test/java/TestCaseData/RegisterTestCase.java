@@ -20,8 +20,8 @@ public class RegisterTestCase extends BaseClass {
    public void Register() throws IOException {
 
    browserlaunch(); 
-  // driver.get("https://naveenautomationlabs.com/opencart/");
- driver.get(prop.getProperty("url"));
+   // driver.get("https://naveenautomationlabs.com/opencart/");
+   driver.get(prop.getProperty("url"));
 	Registerxpath R=new  Registerxpath (driver);
     R.myaccount().click();
     R.register().click();

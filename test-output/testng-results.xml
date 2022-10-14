@@ -2,16 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-17T08:32:41 IST" name="Default suite" finished-at="2022-09-17T08:32:56 IST" duration-ms="14779">
+  <suite started-at="2022-10-14T16:24:09 IST" name="Default suite" finished-at="2022-10-14T16:24:22 IST" duration-ms="12973">
     <groups>
     </groups>
-    <test started-at="2022-09-17T08:32:41 IST" name="Default test" finished-at="2022-09-17T08:32:56 IST" duration-ms="14779">
-      <class name="TestCaseData.Logintestcase">
-        <test-method signature="loginpage()[pri:0, instance:TestCaseData.Logintestcase@6eda5c9]" started-at="2022-09-17T08:32:41 IST" name="loginpage" finished-at="2022-09-17T08:32:56 IST" duration-ms="14731" status="PASS">
+    <test started-at="2022-10-14T16:24:09 IST" name="Default test" finished-at="2022-10-14T16:24:22 IST" duration-ms="12973">
+      <class name="TestCaseData.verifyiphonetestcase">
+        <test-method is-config="true" signature="Atul()[pri:0, instance:TestCaseData.verifyiphonetestcase@402bba4f]" started-at="2022-10-14T16:24:09 IST" name="Atul" finished-at="2022-10-14T16:24:13 IST" duration-ms="3078" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginpage -->
-      </class> <!-- TestCaseData.Logintestcase -->
+        </test-method> <!-- Atul -->
+        <test-method signature="verifyiphonedemo()[pri:0, instance:TestCaseData.verifyiphonetestcase@402bba4f]" started-at="2022-10-14T16:24:13 IST" name="verifyiphonedemo" finished-at="2022-10-14T16:24:22 IST" duration-ms="9869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyiphonedemo -->
+      </class> <!-- TestCaseData.verifyiphonetestcase -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

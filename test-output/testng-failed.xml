@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestCaseData.Logintestcase">
+      <class name="TestCaseData.verifyiphonetestcase">
         <methods>
-          <include name="loginpage"/>
+          <include name="Atul"/>
+          <include name="verifyiphonedemo"/>
         </methods>
-      </class> <!-- TestCaseData.Logintestcase -->
+      </class> <!-- TestCaseData.verifyiphonetestcase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -6,14 +6,17 @@ import java.io.IOException;
 import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass {
 	public WebDriver driver;
-public Properties prop;
-public WebDriver browserlaunch() throws IOException {
+    public Properties prop;
+    public void browserlaunch() throws IOException {
 	FileInputStream fis=new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\Resources\\data.properties");
 	
 	 prop=new Properties();
@@ -38,10 +41,21 @@ public WebDriver browserlaunch() throws IOException {
     {
     	System.out.println("Select");
     }
-	return driver;
+	 
+	//return driver;
+    }
 	
-	
-	
+    @BeforeMethod
+	public void Atul() throws IOException {
+    browserlaunch();
+    driver.get(prop.getProperty("url"));
 }
- 
-}
+    
+  //  @AfterMethod
+  //  public void method() {
+   // 	driver.quit(); 5
+  //  }
+    
+    
+    }
+
